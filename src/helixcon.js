@@ -1,6 +1,6 @@
 class Helixcon {
 	constructor(options) {
-		const option = {
+		this.options = {
 			chat: {
 				whatsapp: {},
 				skype: {},
@@ -23,9 +23,7 @@ class Helixcon {
 			theme: "dark" | "light" | "retro" | "terminal" | { "customTheme":{} }
 		}
 		Object.assign(this, options)
-	}
 
-	whatsapp() {
 
 	}
 }
